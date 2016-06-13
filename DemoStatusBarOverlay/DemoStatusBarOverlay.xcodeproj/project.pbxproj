@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EE6A1611D0EEEFC0039325B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6A1601D0EEEFC0039325B /* main.m */; };
+		4EE6A1641D0EEEFC0039325B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6A1631D0EEEFC0039325B /* AppDelegate.m */; };
+		4EE6A1671D0EEEFC0039325B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6A1661D0EEEFC0039325B /* ViewController.m */; };
+		4EE6A16A1D0EEEFC0039325B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE6A1681D0EEEFC0039325B /* Main.storyboard */; };
+		4EE6A16C1D0EEEFC0039325B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE6A16B1D0EEEFC0039325B /* Assets.xcassets */; };
+		4EE6A16F1D0EEEFC0039325B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE6A16D1D0EEEFC0039325B /* LaunchScreen.storyboard */; };
+		4EE6A17C1D0EEFE50039325B /* libMTStatusBarOverlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE6A17B1D0EEF6E0039325B /* libMTStatusBarOverlay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EE6A17A1D0EEF6E0039325B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE6A1761D0EEF6E0039325B /* MTStatusBarOverlay.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = MTStatusBarOverlay;
+		};
+		4EE6A17D1D0EF0660039325B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE6A1761D0EEF6E0039325B /* MTStatusBarOverlay.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = MTStatusBarOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EE6A15C1D0EEEFC0039325B /* DemoStatusBarOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoStatusBarOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE6A1601D0EEEFC0039325B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EE6A1621D0EEEFC0039325B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EE6A1631D0EEEFC0039325B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EE6A1651D0EEEFC0039325B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4EE6A1661D0EEEFC0039325B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EE6A1691D0EEEFC0039325B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EE6A16B1D0EEEFC0039325B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EE6A16E1D0EEEFC0039325B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EE6A1701D0EEEFC0039325B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE6A1761D0EEF6E0039325B /* MTStatusBarOverlay.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MTStatusBarOverlay.xcodeproj; path = ../MTStatusBarOverlay.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE6A1591D0EEEFC0039325B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE6A17C1D0EEFE50039325B /* libMTStatusBarOverlay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE6A1531D0EEEFC0039325B = {
+			isa = PBXGroup;
+			children = (
+				4EE6A1761D0EEF6E0039325B /* MTStatusBarOverlay.xcodeproj */,
+				4EE6A15E1D0EEEFC0039325B /* DemoStatusBarOverlay */,
+				4EE6A15D1D0EEEFC0039325B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE6A15D1D0EEEFC0039325B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE6A15C1D0EEEFC0039325B /* DemoStatusBarOverlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE6A15E1D0EEEFC0039325B /* DemoStatusBarOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				4EE6A1621D0EEEFC0039325B /* AppDelegate.h */,
+				4EE6A1631D0EEEFC0039325B /* AppDelegate.m */,
+				4EE6A1651D0EEEFC0039325B /* ViewController.h */,
+				4EE6A1661D0EEEFC0039325B /* ViewController.m */,
+				4EE6A1681D0EEEFC0039325B /* Main.storyboard */,
+				4EE6A16B1D0EEEFC0039325B /* Assets.xcassets */,
+				4EE6A16D1D0EEEFC0039325B /* LaunchScreen.storyboard */,
+				4EE6A1701D0EEEFC0039325B /* Info.plist */,
+				4EE6A15F1D0EEEFC0039325B /* Supporting Files */,
+			);
+			path = DemoStatusBarOverlay;
+			sourceTree = "<group>";
+		};
+		4EE6A15F1D0EEEFC0039325B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EE6A1601D0EEEFC0039325B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EE6A1771D0EEF6E0039325B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE6A17B1D0EEF6E0039325B /* libMTStatusBarOverlay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EE6A15B1D0EEEFC0039325B /* DemoStatusBarOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE6A1731D0EEEFC0039325B /* Build configuration list for PBXNativeTarget "DemoStatusBarOverlay" */;
+			buildPhases = (
+				4EE6A1581D0EEEFC0039325B /* Sources */,
+				4EE6A1591D0EEEFC0039325B /* Frameworks */,
+				4EE6A15A1D0EEEFC0039325B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE6A17E1D0EF0660039325B /* PBXTargetDependency */,
+			);
+			name = DemoStatusBarOverlay;
+			productName = DemoStatusBarOverlay;
+			productReference = 4EE6A15C1D0EEEFC0039325B /* DemoStatusBarOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE6A1541D0EEEFC0039325B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ryuzmukhametov;
+				TargetAttributes = {
+					4EE6A15B1D0EEEFC0039325B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D973QTLKW8;
+					};
+				};
+			};
+			buildConfigurationList = 4EE6A1571D0EEEFC0039325B /* Build configuration list for PBXProject "DemoStatusBarOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EE6A1531D0EEEFC0039325B;
+			productRefGroup = 4EE6A15D1D0EEEFC0039325B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4EE6A1771D0EEF6E0039325B /* Products */;
+					ProjectRef = 4EE6A1761D0EEF6E0039325B /* MTStatusBarOverlay.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4EE6A15B1D0EEEFC0039325B /* DemoStatusBarOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4EE6A17B1D0EEF6E0039325B /* libMTStatusBarOverlay.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMTStatusBarOverlay.a;
+			remoteRef = 4EE6A17A1D0EEF6E0039325B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE6A15A1D0EEEFC0039325B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE6A16F1D0EEEFC0039325B /* LaunchScreen.storyboard in Resources */,
+				4EE6A16C1D0EEEFC0039325B /* Assets.xcassets in Resources */,
+				4EE6A16A1D0EEEFC0039325B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE6A1581D0EEEFC0039325B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE6A1671D0EEEFC0039325B /* ViewController.m in Sources */,
+				4EE6A1641D0EEEFC0039325B /* AppDelegate.m in Sources */,
+				4EE6A1611D0EEEFC0039325B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EE6A17E1D0EF0660039325B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTStatusBarOverlay;
+			targetProxy = 4EE6A17D1D0EF0660039325B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EE6A1681D0EEEFC0039325B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE6A1691D0EEEFC0039325B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EE6A16D1D0EEEFC0039325B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE6A16E1D0EEEFC0039325B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EE6A1711D0EEEFC0039325B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = /Users/ryuzmukhametov/Projects/MTStatusBarOverlay;
+			};
+			name = Debug;
+		};
+		4EE6A1721D0EEEFC0039325B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = /Users/ryuzmukhametov/Projects/MTStatusBarOverlay;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EE6A1741D0EEEFC0039325B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DemoStatusBarOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ryuzmukhametov.DemoStatusBarOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4EE6A1751D0EEEFC0039325B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DemoStatusBarOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ryuzmukhametov.DemoStatusBarOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE6A1571D0EEEFC0039325B /* Build configuration list for PBXProject "DemoStatusBarOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE6A1711D0EEEFC0039325B /* Debug */,
+				4EE6A1721D0EEEFC0039325B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE6A1731D0EEEFC0039325B /* Build configuration list for PBXNativeTarget "DemoStatusBarOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE6A1741D0EEEFC0039325B /* Debug */,
+				4EE6A1751D0EEEFC0039325B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE6A1541D0EEEFC0039325B /* Project object */;
+}
